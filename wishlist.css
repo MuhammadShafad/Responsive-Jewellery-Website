@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    color: #000;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+ /* Navbar */
+
+ .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 10px 0;
+    background-color: #f3e1e1;
+}
+
+#nav-head {
+    width: 100px;
+    height: 90px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #D4AF37;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+.navbar-nav .badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 0.75rem;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    .navbar-nav.ml-auto {
+        margin-top: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
+}
+/*Wishlist Section*/
+.wishlist-container {
+    background-color: #f3e1e1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.wishlist-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.wishlist-divider {
+    border-top: 2px solid #00a6c0;
+    width: 100%;
+}
+
+.wishlist-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#wishbut {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #D4AF37;
+    color: white;
+    border: 1px solid white;
+}
+#wishbut:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 576px) {
+    .wishlist-container {
+        padding: 2rem 1rem;
+    }
+    .wishlist-title {
+        font-size: 20px;
+    }
+    .wishlist-text {
+        font-size: 14px;
+    }
+    .return-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+            /* Footer Section*/
+            .footer-section {
+                color: black;
+                padding: 40px 20px;
+                background-color: #f3e1e1;
+            }
+    
+            .footer-section h5 {
+                font-size: 1rem;
+                margin-bottom: 15px;
+                font-weight: bold;
+                text-transform: uppercase;
+                color: #D4AF37;
+            }
+    
+            .footer-section a {
+                color: black;
+                text-decoration: none;
+                font-size: 0.9rem;
+                display: block;
+                margin-bottom: 5px;
+            }
+    
+            .footer-section a:hover {
+                color: #D4AF37;
+            }
+    
+            .footer-section p {
+                color: black;
+            }
+    
+            .footer-bottom {
+                text-align: center;
+                padding-top: 20px;
+                border-top: 1px solid #444;
+                font-size: 0.8rem;
+            }
+    
+            .social-icons a {
+                color: black;
+                margin: 0 10px;
+                font-size: 1.2rem;
+                text-decoration: none;
+            }
+    
+            .social-icons a:hover {
+                color: #D4AF37;
+            }
+    
+            /* Responsive adjustments */
+            @media (max-width: 576px) {
+                .footer-section {
+                    text-align: center;
+                }
+    
+                .footer-section .row>div {
+                    margin-bottom: 20px;
+                }
+            }
+  
